@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# sol2string
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This repository contains a Solidity library `LibUintToString` for efficiently converting `uint256` values to strings.
 
-Try running some of the following tasks:
+## Run tests
 
 ```shell
-npx hardhat accounts
+npm install
 npx hardhat compile
-npx hardhat clean
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
+
+## Gas benchmark
+[Gas benchmark results](gas_benchmark.txt), using [this implementation](https://github.com/dapp-org/tinlake-tests/blob/main/src/utils.sol#L9) as a benchmark.
