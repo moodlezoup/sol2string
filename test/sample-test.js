@@ -44,7 +44,7 @@ describe('LibUintToString.toString', function () {
             expect(result.str).to.equal(uint);
         }
     });
-    it.only('Gas benchmark', async function () {
+    it.skip('Gas benchmark', async function () {
         for (let digits = 1; digits < MAX_UINT256_STRING_LENGTH; digits++) {
             console.log(`================== ${digits} digit integers ==================`);
             let testAverage = 0;
