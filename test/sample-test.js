@@ -15,7 +15,7 @@ function randomUint(digits) {
     ).toString();
 }
 
-const NUM_SAMPLES = Number.parseInt(process.env.NUM_SAMPLES || '1000');
+const NUM_SAMPLES = Number.parseInt(process.env.NUM_SAMPLES || '100');
 
 describe('LibUintToString.toString', function () {
     let testContract;
@@ -30,7 +30,7 @@ describe('LibUintToString.toString', function () {
         expect(result.str).to.equal('0');
     });
     it('Should correctly convert type(uint256).max', async function () {
-        const maxUint256 = 2n ** 256n - 1n
+        const maxUint256 = 2n ** 256n - 1n;
         const result = await testContract.testToString(maxUint256.toString());
         // console.log(`gas cost: ${result.gasCost}`);
         expect(result.str).to.equal(maxUint256.toString());
@@ -42,6 +42,29 @@ describe('LibUintToString.toString', function () {
             // console.log(uint);
             // console.log(`gas cost: ${result.gasCost}`);
             expect(result.str).to.equal(uint);
+        }
+    });
+    it.only('Gas benchmark', async function () {
+        for (let digits = 1; digits < MAX_UINT256_STRING_LENGTH; digits++) {
+            console.log(`================== ${digits} digit integers ==================`);
+            let testAverage = 0;
+            let baselineAverage = 0;
+            for (let i = 0; i < NUM_SAMPLES; i++) {
+                const uint = randomUint(digits);
+                const testResult = await testContract.testToString(uint);
+                testAverage += testResult.gasCost.toNumber();
+                const baselineResult = await testContract.baselineToString(uint);
+                baselineAverage += baselineResult.gasCost.toNumber();
+            }
+            testAverage /= NUM_SAMPLES;
+            baselineAverage /= NUM_SAMPLES;
+            console.log(`Test average: ${testAverage} gas`);
+            console.log(`Baseline average: ${baselineAverage} gas`);
+            console.log(
+                `    ${testAverage < baselineAverage ? '-' : '+'}${
+                    (Math.abs(baselineAverage - testAverage) / baselineAverage) * 100
+                }%`,
+            );
         }
     });
 });

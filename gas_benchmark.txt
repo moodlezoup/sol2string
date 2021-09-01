@@ -1,0 +1,308 @@
+================== 1 digit integers ==================
+Test average: 404.92 gas
+Baseline average: 1870.48 gas
+    -78.35208074932638%
+================== 2 digit integers ==================
+Test average: 506.56 gas
+Baseline average: 3409.99 gas
+    -85.14482447162601%
+================== 3 digit integers ==================
+Test average: 611.24 gas
+Baseline average: 5172.76 gas
+    -88.18348425212072%
+================== 4 digit integers ==================
+Test average: 709.24 gas
+Baseline average: 6849.76 gas
+    -89.64576861087104%
+================== 5 digit integers ==================
+Test average: 808.22 gas
+Baseline average: 8543.53 gas
+    -90.5399758647772%
+================== 6 digit integers ==================
+Test average: 912.1 gas
+Baseline average: 10321.15 gas
+    -91.16280647020922%
+================== 7 digit integers ==================
+Test average: 1007.16 gas
+Baseline average: 11947.84 gas
+    -91.57035916115382%
+================== 8 digit integers ==================
+Test average: 1105.16 gas
+Baseline average: 13624.84 gas
+    -91.88863869227089%
+================== 9 digit integers ==================
+Test average: 1205.12 gas
+Baseline average: 15335.38 gas
+    -92.14157066861075%
+================== 10 digit integers ==================
+Test average: 1301.16 gas
+Baseline average: 16978.84 gas
+    -92.33657894178872%
+================== 11 digit integers ==================
+Test average: 1393.28 gas
+Baseline average: 18555.22 gas
+    -92.4911696007916%
+================== 12 digit integers ==================
+Test average: 1497.16 gas
+Baseline average: 20332.84 gas
+    -92.63673938318504%
+================== 13 digit integers ==================
+Test average: 1588.3 gas
+Baseline average: 21892.45 gas
+    -92.74498742717239%
+================== 14 digit integers ==================
+Test average: 1688.26 gas
+Baseline average: 23602.99 gas
+    -92.84726214771942%
+================== 15 digit integers ==================
+Test average: 1787.24 gas
+Baseline average: 25296.76 gas
+    -92.93490549777916%
+================== 16 digit integers ==================
+Test average: 1889.16 gas
+Baseline average: 27040.84 gas
+    -93.01367856915688%
+================== 17 digit integers ==================
+Test average: 1985.2 gas
+Baseline average: 28684.3 gas
+    -93.07914085405605%
+================== 18 digit integers ==================
+Test average: 2078.3 gas
+Baseline average: 30277.45 gas
+    -93.13581559873768%
+================== 19 digit integers ==================
+Test average: 2181.2 gas
+Baseline average: 32038.3 gas
+    -93.19189844654679%
+================== 20 digit integers ==================
+Test average: 2279.2 gas
+Baseline average: 33715.3 gas
+    -93.23986439391018%
+================== 21 digit integers ==================
+Test average: 2376.22 gas
+Baseline average: 35375.53 gas
+    -93.28287095627967%
+================== 22 digit integers ==================
+Test average: 2476.18 gas
+Baseline average: 37086.07 gas
+    -93.32315341043146%
+================== 23 digit integers ==================
+Test average: 2570.26 gas
+Baseline average: 38695.99 gas
+    -93.35781304471082%
+================== 24 digit integers ==================
+Test average: 2670.22 gas
+Baseline average: 40406.53 gas
+    -93.39161269230493%
+================== 25 digit integers ==================
+Test average: 2763.32 gas
+Baseline average: 41999.68 gas
+    -93.42061653803077%
+================== 26 digit integers ==================
+Test average: 2868.18 gas
+Baseline average: 43794.07 gas
+    -93.45075714588756%
+================== 27 digit integers ==================
+Test average: 2964.22 gas
+Baseline average: 45437.53 gas
+    -93.47627390837486%
+================== 28 digit integers ==================
+Test average: 3063.2 gas
+Baseline average: 47131.3 gas
+    -93.50070971944335%
+================== 29 digit integers ==================
+Test average: 3160.22 gas
+Baseline average: 48791.53 gas
+    -93.52301516267269%
+================== 30 digit integers ==================
+Test average: 3257.24 gas
+Baseline average: 50451.76 gas
+    -93.5438525831408%
+================== 31 digit integers ==================
+Test average: 3350.34 gas
+Baseline average: 52044.91 gas
+    -93.56259814840683%
+================== 32 digit integers ==================
+Test average: 3453.24 gas
+Baseline average: 53805.76 gas
+    -93.58202541883992%
+================== 33 digit integers ==================
+Test average: 3551.24 gas
+Baseline average: 55488.16 gas
+    -93.60000403689725%
+================== 34 digit integers ==================
+Test average: 3652.18 gas
+Baseline average: 57216.01 gas
+    -93.61685654067804%
+================== 35 digit integers ==================
+Test average: 3747.24 gas
+Baseline average: 58842.76 gas
+    -93.63177390047646%
+================== 36 digit integers ==================
+Test average: 3838.38 gas
+Baseline average: 60402.37 gas
+    -93.64531557288232%
+================== 37 digit integers ==================
+Test average: 3949.12 gas
+Baseline average: 62297.38 gas
+    -93.6608570055434%
+================== 38 digit integers ==================
+Test average: 4043.2 gas
+Baseline average: 63907.3 gas
+    -93.6733362229354%
+================== 39 digit integers ==================
+Test average: 4139.24 gas
+Baseline average: 65550.76 gas
+    -93.68544315885889%
+================== 40 digit integers ==================
+Test average: 4238.22 gas
+Baseline average: 67244.53 gas
+    -93.69730147567394%
+================== 41 digit integers ==================
+Test average: 4334.26 gas
+Baseline average: 68887.99 gas
+    -93.7082501608771%
+================== 42 digit integers ==================
+Test average: 4434.22 gas
+Baseline average: 70598.53 gas
+    -93.71910434962314%
+================== 43 digit integers ==================
+Test average: 4523.4 gas
+Baseline average: 72124.6 gas
+    -93.72835343280934%
+================== 44 digit integers ==================
+Test average: 4636.1 gas
+Baseline average: 74053.15 gas
+    -93.739496564292%
+================== 45 digit integers ==================
+Test average: 4720.38 gas
+Baseline average: 75495.37 gas
+    -93.7474576255471%
+================== 46 digit integers ==================
+Test average: 4831.12 gas
+Baseline average: 77390.38 gas
+    -93.75746701334198%
+================== 47 digit integers ==================
+Test average: 4921.28 gas
+Baseline average: 78933.22 gas
+    -93.76526131836506%
+================== 48 digit integers ==================
+Test average: 5026.14 gas
+Baseline average: 80727.61 gas
+    -93.7739516876568%
+================== 49 digit integers ==================
+Test average: 5118.26 gas
+Baseline average: 82303.99 gas
+    -93.78127354457543%
+================== 50 digit integers ==================
+Test average: 5221.16 gas
+Baseline average: 84064.84 gas
+    -93.78912753536437%
+================== 51 digit integers ==================
+Test average: 5320.14 gas
+Baseline average: 85758.61 gas
+    -93.7963779963318%
+================== 52 digit integers ==================
+Test average: 5412.26 gas
+Baseline average: 87334.99 gas
+    -93.80287328137325%
+================== 53 digit integers ==================
+Test average: 5510.26 gas
+Baseline average: 89011.99 gas
+    -93.8095306036861%
+================== 54 digit integers ==================
+Test average: 5611.2 gas
+Baseline average: 90739.3 gas
+    -93.81613038672329%
+================== 55 digit integers ==================
+Test average: 5706.26 gas
+Baseline average: 92365.99 gas
+    -93.82212002491393%
+================== 56 digit integers ==================
+Test average: 5803.28 gas
+Baseline average: 94026.22 gas
+    -93.82801946095462%
+================== 57 digit integers ==================
+Test average: 5907.16 gas
+Baseline average: 95803.84 gas
+    -93.83410936346601%
+================== 58 digit integers ==================
+Test average: 6006.14 gas
+Baseline average: 97497.61 gas
+    -93.83970540406067%
+================== 59 digit integers ==================
+Test average: 6098.26 gas
+Baseline average: 99073.99 gas
+    -93.84474169254716%
+================== 60 digit integers ==================
+Test average: 6196.26 gas
+Baseline average: 100750.99 gas
+    -93.84992643744742%
+================== 61 digit integers ==================
+Test average: 6296.22 gas
+Baseline average: 102461.53 gas
+    -93.85504003307388%
+================== 62 digit integers ==================
+Test average: 6395.2 gas
+Baseline average: 104155.3 gas
+    -93.85993799643417%
+================== 63 digit integers ==================
+Test average: 6495.16 gas
+Baseline average: 105865.84 gas
+    -93.86472539206225%
+================== 64 digit integers ==================
+Test average: 6591.2 gas
+Baseline average: 107509.3 gas
+    -93.86918154987522%
+================== 65 digit integers ==================
+Test average: 6693.12 gas
+Baseline average: 109259.08 gas
+    -93.87408350866583%
+================== 66 digit integers ==================
+Test average: 6781.32 gas
+Baseline average: 110768.5 gas
+    -93.87793461137417%
+================== 67 digit integers ==================
+Test average: 6882.26 gas
+Baseline average: 112495.99 gas
+    -93.88221749059677%
+================== 68 digit integers ==================
+Test average: 6981.24 gas
+Baseline average: 114189.76 gas
+    -93.88628192230196%
+================== 69 digit integers ==================
+Test average: 7077.28 gas
+Baseline average: 115833.22 gas
+    -93.89011200759161%
+================== 70 digit integers ==================
+Test average: 7179.2 gas
+Baseline average: 117577.3 gas
+    -93.89405948257019%
+================== 71 digit integers ==================
+Test average: 7277.2 gas
+Baseline average: 119254.3 gas
+    -93.8977462447895%
+================== 72 digit integers ==================
+Test average: 7375.2 gas
+Baseline average: 120931.3 gas
+    -93.90133075556122%
+================== 73 digit integers ==================
+Test average: 7474.18 gas
+Baseline average: 122625.07 gas
+    -93.90485159356076%
+================== 74 digit integers ==================
+Test average: 7568.26 gas
+Baseline average: 124234.99 gas
+    -93.90810914058915%
+================== 75 digit integers ==================
+Test average: 7666.26 gas
+Baseline average: 125911.99 gas
+    -93.91141383755432%
+================== 76 digit integers ==================
+Test average: 7766.22 gas
+Baseline average: 127622.53 gas
+    -93.91469515609822%
+================== 77 digit integers ==================
+Test average: 7861.28 gas
+Baseline average: 129249.22 gas
+    -93.91773505480343%

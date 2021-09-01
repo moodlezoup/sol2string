@@ -5,7 +5,11 @@ library LibUintToString {
     uint256 private constant MAX_UINT256_STRING_LENGTH = 78;
     uint8 private constant ASCII_DIGIT_OFFSET = 48;
 
-    function toString(uint256 n) internal pure returns (string memory nstr) {
+    function toString(uint256 n) 
+        internal 
+        pure 
+        returns (string memory nstr) 
+    {
         if (n == 0) {
             return "0";
         }
