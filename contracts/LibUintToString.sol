@@ -5,6 +5,9 @@ library LibUintToString {
     uint256 private constant MAX_UINT256_STRING_LENGTH = 78;
     uint8 private constant ASCII_DIGIT_OFFSET = 48;
 
+    /// @dev Converts a `uint256` value to a string.
+    /// @param n The integer to convert.
+    /// @return nstr `n` as a decimal string.
     function toString(uint256 n) 
         internal 
         pure 
@@ -13,8 +16,10 @@ library LibUintToString {
         if (n == 0) {
             return "0";
         }
+        // Overallocate memory
         nstr = new string(MAX_UINT256_STRING_LENGTH);
         uint256 k = MAX_UINT256_STRING_LENGTH;
+        // Populate string from right to left (lsb to msb).
         while (n != 0) {
             assembly {
                 let char := add(
@@ -27,7 +32,9 @@ library LibUintToString {
             }
         }
         assembly {
+            // Shift pointer over to actual start of string.
             nstr := add(nstr, k)
+            // Store actual string length.
             mstore(nstr, sub(MAX_UINT256_STRING_LENGTH, k))
         }
         return nstr;
