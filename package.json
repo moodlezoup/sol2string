@@ -1,27 +1,29 @@
 {
-  "name": "sol2string",
-  "version": "1.0.0",
-  "description": "A gas-efficient Solidity library for converting uints to strings.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mzhu25/sol2string.git"
-  },
-  "author": "Michael Zhu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mzhu25/sol2string/issues"
-  },
-  "homepage": "https://github.com/mzhu25/sol2string#readme",
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.2",
-    "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "chai": "^4.3.4",
-    "ethereum-waffle": "^3.4.0",
-    "ethers": "^5.4.6",
-    "hardhat": "^2.6.2"
-  }
+    "name": "sol2string",
+    "version": "1.0.0",
+    "description": "A gas-efficient Solidity library for converting uints to strings.",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "prettier": "prettier --write \"**/*.{ts,js,json,yml,md}\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mzhu25/sol2string.git"
+    },
+    "author": "Michael Zhu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mzhu25/sol2string/issues"
+    },
+    "homepage": "https://github.com/mzhu25/sol2string#readme",
+    "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.2",
+        "@nomiclabs/hardhat-waffle": "^2.0.1",
+        "chai": "^4.3.4",
+        "ethereum-waffle": "^3.4.0",
+        "ethers": "^5.4.6",
+        "hardhat": "^2.6.2",
+        "prettier": "^2.3.2"
+    }
 }
