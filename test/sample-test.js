@@ -52,14 +52,15 @@ describe('LibUintToString.toString', function () {
             for (let i = 0; i < NUM_SAMPLES; i++) {
                 const uint = randomUint(digits);
                 const testResult = await testContract.testToString(uint);
+                expect(testResult.str).to.equal(uint);
                 testAverage += testResult.gasCost.toNumber();
                 const baselineResult = await testContract.baselineToString(uint);
                 baselineAverage += baselineResult.gasCost.toNumber();
             }
             testAverage /= NUM_SAMPLES;
             baselineAverage /= NUM_SAMPLES;
-            console.log(`Test average: ${testAverage} gas`);
-            console.log(`Baseline average: ${baselineAverage} gas`);
+            console.log(`sol2string average: ${testAverage} gas`);
+            console.log(`OpenZeppelin average: ${baselineAverage} gas`);
             console.log(
                 `    ${testAverage < baselineAverage ? '-' : '+'}${
                     (Math.abs(baselineAverage - testAverage) / baselineAverage) * 100

@@ -33,38 +33,38 @@ contract TestUintToString {
         returns (string memory str, uint256 gasCost) 
     {
         uint256 g0 = gasleft();
-        str = uint2str(n);
+        str = toStringOZ(n);
         gasCost = g0 - gasleft();
     }
 
 
-    /// @dev Baseline uint256 to string implementation, from
-    ///      https://github.com/dapp-org/tinlake-tests/blob/main/src/utils.sol#L9
-    /// @param _i The integer to convert.
-    /// @return _uintAsString `_i` as a decimal string.
-    function uint2str(uint _i) 
+    /// @dev Baseline uint256 to string implementation, from OpenZeppelin
+    ///      https://github.com/OpenZeppelin/openzeppelin-contracts/blob/788d338c9b53d57f7229f79815573dcb91ecede1/contracts/utils/Strings.sol#L14
+    /// @param value The integer to convert.
+    /// @return str The `value` as a decimal string.
+    function toStringOZ(uint256 value) 
         internal 
         pure 
-        returns (string memory _uintAsString) 
+        returns (string memory str) 
     {
-        if (_i == 0) {
+        // Inspired by OraclizeAPI's implementation - MIT licence
+        // https://github.com/oraclize/ethereum-api/blob/b42146b063c7d6ee1358846c198246239e9360e8/oraclizeAPI_0.4.25.sol
+
+        if (value == 0) {
             return "0";
         }
-        uint j = _i;
-        uint len;
-        while (j != 0) {
-            len++;
-            j /= 10;
+        uint256 temp = value;
+        uint256 digits;
+        while (temp != 0) {
+            digits++;
+            temp /= 10;
         }
-        bytes memory bstr = new bytes(len);
-        uint k = len;
-        while (_i != 0) {
-            k = k-1;
-            uint8 temp = (48 + uint8(_i - _i / 10 * 10));
-            bytes1 b1 = bytes1(temp);
-            bstr[k] = b1;
-            _i /= 10;
+        bytes memory buffer = new bytes(digits);
+        while (value != 0) {
+            digits -= 1;
+            buffer[digits] = bytes1(uint8(48 + uint256(value % 10)));
+            value /= 10;
         }
-        return string(bstr);
+        return string(buffer);
     }
 }

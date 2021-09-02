@@ -1,308 +1,308 @@
 ================== 1 digit integers ==================
-Test average: 404.92 gas
-Baseline average: 1870.48 gas
-    -78.35208074932638%
+sol2string average: 404.92 gas
+OpenZeppelin average: 1457.4 gas
+    -72.21627555921503%
 ================== 2 digit integers ==================
-Test average: 506.56 gas
-Baseline average: 3409.99 gas
-    -85.14482447162601%
+sol2string average: 514.22 gas
+OpenZeppelin average: 2675.49 gas
+    -80.7803430399665%
 ================== 3 digit integers ==================
-Test average: 611.24 gas
-Baseline average: 5172.76 gas
-    -88.18348425212072%
+sol2string average: 612.22 gas
+OpenZeppelin average: 3916.49 gas
+    -84.36814596743511%
 ================== 4 digit integers ==================
-Test average: 709.24 gas
-Baseline average: 6849.76 gas
-    -89.64576861087104%
+sol2string average: 713.16 gas
+OpenZeppelin average: 5194.72 gas
+    -86.27144485169556%
 ================== 5 digit integers ==================
-Test average: 808.22 gas
-Baseline average: 8543.53 gas
-    -90.5399758647772%
+sol2string average: 802.34 gas
+OpenZeppelin average: 6324.03 gas
+    -87.31283690937582%
 ================== 6 digit integers ==================
-Test average: 912.1 gas
-Baseline average: 10321.15 gas
-    -91.16280647020922%
+sol2string average: 903.28 gas
+OpenZeppelin average: 7602.26 gas
+    -88.11827009336697%
 ================== 7 digit integers ==================
-Test average: 1007.16 gas
-Baseline average: 11947.84 gas
-    -91.57035916115382%
+sol2string average: 1008.14 gas
+OpenZeppelin average: 8930.13 gas
+    -88.71080264229076%
 ================== 8 digit integers ==================
-Test average: 1105.16 gas
-Baseline average: 13624.84 gas
-    -91.88863869227089%
+sol2string average: 1105.16 gas
+OpenZeppelin average: 10158.72 gas
+    -89.12107037107037%
 ================== 9 digit integers ==================
-Test average: 1205.12 gas
-Baseline average: 15335.38 gas
-    -92.14157066861075%
+sol2string average: 1203.16 gas
+OpenZeppelin average: 11399.72 gas
+    -89.44570568399925%
 ================== 10 digit integers ==================
-Test average: 1301.16 gas
-Baseline average: 16978.84 gas
-    -92.33657894178872%
+sol2string average: 1300.18 gas
+OpenZeppelin average: 12628.31 gas
+    -89.70424387744677%
 ================== 11 digit integers ==================
-Test average: 1393.28 gas
-Baseline average: 18555.22 gas
-    -92.4911696007916%
+sol2string average: 1397.2 gas
+OpenZeppelin average: 13856.9 gas
+    -89.91693668858115%
 ================== 12 digit integers ==================
-Test average: 1497.16 gas
-Baseline average: 20332.84 gas
-    -92.63673938318504%
+sol2string average: 1498.14 gas
+OpenZeppelin average: 15135.13 gas
+    -90.10157164160468%
 ================== 13 digit integers ==================
-Test average: 1588.3 gas
-Baseline average: 21892.45 gas
-    -92.74498742717239%
+sol2string average: 1597.12 gas
+OpenZeppelin average: 16388.54 gas
+    -90.25465355669267%
 ================== 14 digit integers ==================
-Test average: 1688.26 gas
-Baseline average: 23602.99 gas
-    -92.84726214771942%
+sol2string average: 1693.16 gas
+OpenZeppelin average: 17604.72 gas
+    -90.3823520055985%
 ================== 15 digit integers ==================
-Test average: 1787.24 gas
-Baseline average: 25296.76 gas
-    -92.93490549777916%
+sol2string average: 1795.08 gas
+OpenZeppelin average: 18895.36 gas
+    -90.49988992006503%
 ================== 16 digit integers ==================
-Test average: 1889.16 gas
-Baseline average: 27040.84 gas
-    -93.01367856915688%
+sol2string average: 1884.26 gas
+OpenZeppelin average: 20024.67 gas
+    -90.59030685649252%
 ================== 17 digit integers ==================
-Test average: 1985.2 gas
-Baseline average: 28684.3 gas
-    -93.07914085405605%
+sol2string average: 1979.32 gas
+OpenZeppelin average: 21228.44 gas
+    -90.67609301484235%
 ================== 18 digit integers ==================
-Test average: 2078.3 gas
-Baseline average: 30277.45 gas
-    -93.13581559873768%
+sol2string average: 2085.16 gas
+OpenZeppelin average: 22568.72 gas
+    -90.76084066796876%
 ================== 19 digit integers ==================
-Test average: 2181.2 gas
-Baseline average: 32038.3 gas
-    -93.19189844654679%
+sol2string average: 2173.36 gas
+OpenZeppelin average: 23685.62 gas
+    -90.82413717690312%
 ================== 20 digit integers ==================
-Test average: 2279.2 gas
-Baseline average: 33715.3 gas
-    -93.23986439391018%
+sol2string average: 2273.32 gas
+OpenZeppelin average: 24951.44 gas
+    -90.88902283796045%
 ================== 21 digit integers ==================
-Test average: 2376.22 gas
-Baseline average: 35375.53 gas
-    -93.28287095627967%
+sol2string average: 2370.34 gas
+OpenZeppelin average: 26180.03 gas
+    -90.9459996799087%
 ================== 22 digit integers ==================
-Test average: 2476.18 gas
-Baseline average: 37086.07 gas
-    -93.32315341043146%
+sol2string average: 2471.28 gas
+OpenZeppelin average: 27458.26 gas
+    -90.99986670677603%
 ================== 23 digit integers ==================
-Test average: 2570.26 gas
-Baseline average: 38695.99 gas
-    -93.35781304471082%
+sol2string average: 2572.22 gas
+OpenZeppelin average: 28736.49 gas
+    -91.04894160699514%
 ================== 24 digit integers ==================
-Test average: 2670.22 gas
-Baseline average: 40406.53 gas
-    -93.39161269230493%
+sol2string average: 2671.2 gas
+OpenZeppelin average: 29989.9 gas
+    -91.09300131044118%
 ================== 25 digit integers ==================
-Test average: 2763.32 gas
-Baseline average: 41999.68 gas
-    -93.42061653803077%
+sol2string average: 2768.22 gas
+OpenZeppelin average: 31218.49 gas
+    -91.13275497950093%
 ================== 26 digit integers ==================
-Test average: 2868.18 gas
-Baseline average: 43794.07 gas
-    -93.45075714588756%
+sol2string average: 2863.28 gas
+OpenZeppelin average: 32422.26 gas
+    -91.16878342225372%
 ================== 27 digit integers ==================
-Test average: 2964.22 gas
-Baseline average: 45437.53 gas
-    -93.47627390837486%
+sol2string average: 2963.24 gas
+OpenZeppelin average: 33688.08 gas
+    -91.20389170294064%
 ================== 28 digit integers ==================
-Test average: 3063.2 gas
-Baseline average: 47131.3 gas
-    -93.50070971944335%
+sol2string average: 3062.22 gas
+OpenZeppelin average: 34941.49 gas
+    -91.23614934566328%
 ================== 29 digit integers ==================
-Test average: 3160.22 gas
-Baseline average: 48791.53 gas
-    -93.52301516267269%
+sol2string average: 3161.2 gas
+OpenZeppelin average: 36194.9 gas
+    -91.26617285860716%
 ================== 30 digit integers ==================
-Test average: 3257.24 gas
-Baseline average: 50451.76 gas
-    -93.5438525831408%
+sol2string average: 3255.28 gas
+OpenZeppelin average: 37386.26 gas
+    -91.29284394855223%
 ================== 31 digit integers ==================
-Test average: 3350.34 gas
-Baseline average: 52044.91 gas
-    -93.56259814840683%
+sol2string average: 3356.22 gas
+OpenZeppelin average: 38664.49 gas
+    -91.3196320448039%
 ================== 32 digit integers ==================
-Test average: 3453.24 gas
-Baseline average: 53805.76 gas
-    -93.58202541883992%
+sol2string average: 3453.24 gas
+OpenZeppelin average: 39893.08 gas
+    -91.3437618754932%
 ================== 33 digit integers ==================
-Test average: 3551.24 gas
-Baseline average: 55488.16 gas
-    -93.60000403689725%
+sol2string average: 3555.16 gas
+OpenZeppelin average: 41189.3 gas
+    -91.36872925735567%
 ================== 34 digit integers ==================
-Test average: 3652.18 gas
-Baseline average: 57216.01 gas
-    -93.61685654067804%
+sol2string average: 3651.2 gas
+OpenZeppelin average: 42405.78 gas
+    -91.38985298702205%
 ================== 35 digit integers ==================
-Test average: 3747.24 gas
-Baseline average: 58842.76 gas
-    -93.63177390047646%
+sol2string average: 3749.2 gas
+OpenZeppelin average: 43646.9 gas
+    -91.41015742240572%
 ================== 36 digit integers ==================
-Test average: 3838.38 gas
-Baseline average: 60402.37 gas
-    -93.64531557288232%
+sol2string average: 3842.3 gas
+OpenZeppelin average: 44825.85 gas
+    -91.42838339931089%
 ================== 37 digit integers ==================
-Test average: 3949.12 gas
-Baseline average: 62297.38 gas
-    -93.6608570055434%
+sol2string average: 3945.2 gas
+OpenZeppelin average: 46128.9 gas
+    -91.44744401015417%
 ================== 38 digit integers ==================
-Test average: 4043.2 gas
-Baseline average: 63907.3 gas
-    -93.6733362229354%
+sol2string average: 4040.26 gas
+OpenZeppelin average: 47332.67 gas
+    -91.46411981407344%
 ================== 39 digit integers ==================
-Test average: 4139.24 gas
-Baseline average: 65550.76 gas
-    -93.68544315885889%
+sol2string average: 4133.36 gas
+OpenZeppelin average: 48511.62 gas
+    -91.47964961796782%
 ================== 40 digit integers ==================
-Test average: 4238.22 gas
-Baseline average: 67244.53 gas
-    -93.69730147567394%
+sol2string average: 4242.14 gas
+OpenZeppelin average: 49889.13 gas
+    -91.4968651487809%
 ================== 41 digit integers ==================
-Test average: 4334.26 gas
-Baseline average: 68887.99 gas
-    -93.7082501608771%
+sol2string average: 4338.18 gas
+OpenZeppelin average: 51105.31 gas
+    -91.5112930535007%
 ================== 42 digit integers ==================
-Test average: 4434.22 gas
-Baseline average: 70598.53 gas
-    -93.71910434962314%
+sol2string average: 4438.14 gas
+OpenZeppelin average: 52371.13 gas
+    -91.5255981683038%
 ================== 43 digit integers ==================
-Test average: 4523.4 gas
-Baseline average: 72124.6 gas
-    -93.72835343280934%
+sol2string average: 4526.34 gas
+OpenZeppelin average: 53488.03 gas
+    -91.53765805171737%
 ================== 44 digit integers ==================
-Test average: 4636.1 gas
-Baseline average: 74053.15 gas
-    -93.739496564292%
+sol2string average: 4629.24 gas
+OpenZeppelin average: 54791.08 gas
+    -91.55110649397676%
 ================== 45 digit integers ==================
-Test average: 4720.38 gas
-Baseline average: 75495.37 gas
-    -93.7474576255471%
+sol2string average: 4725.28 gas
+OpenZeppelin average: 56007.26 gas
+    -91.56309378462721%
 ================== 46 digit integers ==================
-Test average: 4831.12 gas
-Baseline average: 77390.38 gas
-    -93.75746701334198%
+sol2string average: 4824.26 gas
+OpenZeppelin average: 57260.67 gas
+    -91.5749152079429%
 ================== 47 digit integers ==================
-Test average: 4921.28 gas
-Baseline average: 78933.22 gas
-    -93.76526131836506%
+sol2string average: 4919.32 gas
+OpenZeppelin average: 58464.44 gas
+    -91.58579129467417%
 ================== 48 digit integers ==================
-Test average: 5026.14 gas
-Baseline average: 80727.61 gas
-    -93.7739516876568%
+sol2string average: 5023.2 gas
+OpenZeppelin average: 59779.9 gas
+    -91.59717563930352%
 ================== 49 digit integers ==================
-Test average: 5118.26 gas
-Baseline average: 82303.99 gas
-    -93.78127354457543%
+sol2string average: 5119.24 gas
+OpenZeppelin average: 60996.08 gas
+    -91.60726394220744%
 ================== 50 digit integers ==================
-Test average: 5221.16 gas
-Baseline average: 84064.84 gas
-    -93.78912753536437%
+sol2string average: 5221.16 gas
+OpenZeppelin average: 62286.72 gas
+    -91.61753901955343%
 ================== 51 digit integers ==================
-Test average: 5320.14 gas
-Baseline average: 85758.61 gas
-    -93.7963779963318%
+sol2string average: 5322.1 gas
+OpenZeppelin average: 63564.95 gas
+    -91.62730404098485%
 ================== 52 digit integers ==================
-Test average: 5412.26 gas
-Baseline average: 87334.99 gas
-    -93.80287328137325%
+sol2string average: 5412.26 gas
+OpenZeppelin average: 64706.67 gas
+    -91.63569999816093%
 ================== 53 digit integers ==================
-Test average: 5510.26 gas
-Baseline average: 89011.99 gas
-    -93.8095306036861%
+sol2string average: 5514.18 gas
+OpenZeppelin average: 65997.31 gas
+    -91.6448412821674%
 ================== 54 digit integers ==================
-Test average: 5611.2 gas
-Baseline average: 90739.3 gas
-    -93.81613038672329%
+sol2string average: 5614.14 gas
+OpenZeppelin average: 67263.13 gas
+    -91.65346602217292%
 ================== 55 digit integers ==================
-Test average: 5706.26 gas
-Baseline average: 92365.99 gas
-    -93.82212002491393%
+sol2string average: 5711.16 gas
+OpenZeppelin average: 68491.72 gas
+    -91.66153222608513%
 ================== 56 digit integers ==================
-Test average: 5803.28 gas
-Baseline average: 94026.22 gas
-    -93.82801946095462%
+sol2string average: 5803.28 gas
+OpenZeppelin average: 69658.26 gas
+    -91.66892770505608%
 ================== 57 digit integers ==================
-Test average: 5907.16 gas
-Baseline average: 95803.84 gas
-    -93.83410936346601%
+sol2string average: 5901.28 gas
+OpenZeppelin average: 70899.26 gas
+    -91.67652807659769%
 ================== 58 digit integers ==================
-Test average: 6006.14 gas
-Baseline average: 97497.61 gas
-    -93.83970540406067%
+sol2string average: 6004.18 gas
+OpenZeppelin average: 72202.31 gas
+    -91.68422727749294%
 ================== 59 digit integers ==================
-Test average: 6098.26 gas
-Baseline average: 99073.99 gas
-    -93.84474169254716%
+sol2string average: 6096.3 gas
+OpenZeppelin average: 73368.85 gas
+    -91.69088789043306%
 ================== 60 digit integers ==================
-Test average: 6196.26 gas
-Baseline average: 100750.99 gas
-    -93.84992643744742%
+sol2string average: 6198.22 gas
+OpenZeppelin average: 74659.49 gas
+    -91.69801454577308%
 ================== 61 digit integers ==================
-Test average: 6296.22 gas
-Baseline average: 102461.53 gas
-    -93.85504003307388%
+sol2string average: 6292.3 gas
+OpenZeppelin average: 75850.85 gas
+    -91.70437773604382%
 ================== 62 digit integers ==================
-Test average: 6395.2 gas
-Baseline average: 104155.3 gas
-    -93.85993799643417%
+sol2string average: 6397.16 gas
+OpenZeppelin average: 77178.72 gas
+    -91.71123853829138%
 ================== 63 digit integers ==================
-Test average: 6495.16 gas
-Baseline average: 105865.84 gas
-    -93.86472539206225%
+sol2string average: 6489.28 gas
+OpenZeppelin average: 78345.26 gas
+    -91.7170738855165%
 ================== 64 digit integers ==================
-Test average: 6591.2 gas
-Baseline average: 107509.3 gas
-    -93.86918154987522%
+sol2string average: 6593.16 gas
+OpenZeppelin average: 79660.72 gas
+    -91.72344914783596%
 ================== 65 digit integers ==================
-Test average: 6693.12 gas
-Baseline average: 109259.08 gas
-    -93.87408350866583%
+sol2string average: 6689.2 gas
+OpenZeppelin average: 80882.36 gas
+    -91.72971708540652%
 ================== 66 digit integers ==================
-Test average: 6781.32 gas
-Baseline average: 110768.5 gas
-    -93.87793461137417%
+sol2string average: 6787.2 gas
+OpenZeppelin average: 82123.9 gas
+    -91.73541441650968%
 ================== 67 digit integers ==================
-Test average: 6882.26 gas
-Baseline average: 112495.99 gas
-    -93.88221749059677%
+sol2string average: 6888.14 gas
+OpenZeppelin average: 83402.13 gas
+    -91.74105025854855%
 ================== 68 digit integers ==================
-Test average: 6981.24 gas
-Baseline average: 114189.76 gas
-    -93.88628192230196%
+sol2string average: 6982.22 gas
+OpenZeppelin average: 84593.49 gas
+    -91.74614973327144%
 ================== 69 digit integers ==================
-Test average: 7077.28 gas
-Baseline average: 115833.22 gas
-    -93.89011200759161%
+sol2string average: 7075.32 gas
+OpenZeppelin average: 85772.44 gas
+    -91.75105663310966%
 ================== 70 digit integers ==================
-Test average: 7179.2 gas
-Baseline average: 117577.3 gas
-    -93.89405948257019%
+sol2string average: 7174.3 gas
+OpenZeppelin average: 87025.85 gas
+    -91.75612763334112%
 ================== 71 digit integers ==================
-Test average: 7277.2 gas
-Baseline average: 119254.3 gas
-    -93.8977462447895%
+sol2string average: 7272.3 gas
+OpenZeppelin average: 88266.85 gas
+    -91.76100653869487%
 ================== 72 digit integers ==================
-Test average: 7375.2 gas
-Baseline average: 120931.3 gas
-    -93.90133075556122%
+sol2string average: 7375.2 gas
+OpenZeppelin average: 89569.9 gas
+    -91.76598388521144%
 ================== 73 digit integers ==================
-Test average: 7474.18 gas
-Baseline average: 122625.07 gas
-    -93.90485159356076%
+sol2string average: 7467.32 gas
+OpenZeppelin average: 90736.44 gas
+    -91.77031851811685%
 ================== 74 digit integers ==================
-Test average: 7568.26 gas
-Baseline average: 124234.99 gas
-    -93.90810914058915%
+sol2string average: 7572.18 gas
+OpenZeppelin average: 92064.31 gas
+    -91.77511893588299%
 ================== 75 digit integers ==================
-Test average: 7666.26 gas
-Baseline average: 125911.99 gas
-    -93.91141383755432%
+sol2string average: 7674.1 gas
+OpenZeppelin average: 93354.95 gas
+    -91.77965389087562%
 ================== 76 digit integers ==================
-Test average: 7766.22 gas
-Baseline average: 127622.53 gas
-    -93.91469515609822%
+sol2string average: 7766.22 gas
+OpenZeppelin average: 94521.49 gas
+    -91.78364623748524%
 ================== 77 digit integers ==================
-Test average: 7861.28 gas
-Baseline average: 129249.22 gas
-    -93.91773505480343%
+sol2string average: 7869.12 gas
+OpenZeppelin average: 95824.54 gas
+    -91.7879908424293%

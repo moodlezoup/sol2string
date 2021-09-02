@@ -11,4 +11,4 @@ npx hardhat test
 ```
 
 ## Gas benchmark
-[Gas benchmark results](gas_benchmark.txt), using [this implementation](https://github.com/dapp-org/tinlake-tests/blob/main/src/utils.sol#L9) as a benchmark.
+[Gas benchmark results](gas_benchmark.txt), using [OpenZeppelin's implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/788d338c9b53d57f7229f79815573dcb91ecede1/contracts/utils/Strings.sol#L14) as a benchmark.
